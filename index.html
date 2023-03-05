@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Source+Sans+Pro:wght@200;400&display=swap" rel="stylesheet">
+    <title>Momentum</title>
+</head>
+
+<body>
+    <div class="searchForm">
+        <span>Links</span>
+        <img src="img/search.png"/>
+        <form>
+            <input type="text"/>
+        </form>
+    </div>
+    
+    </div>
+    <div class="wrapper">
+        <div class = mainContainer>
+            <h2 id="clock">00:00:00</h2>
+
+            <form id="login-form" class="hidden">
+                <span>Hello, what's your name?</span><br />
+                <input required maxlength="15" type="text"/>
+            </form>
+            <h1 id="greeting" class="hidden"></h1>
+        </div>
+    </div>
+
+    <span class="todoTitle">Todo</span>
+    <div id="todoBar" class="div-hidden">
+        <span>Today ▼</span>
+        <form id="todo-form">
+            <ul id="todo-list"></ul>
+            <input type="text" placeholder="New Todo" required/>
+        </form>
+    </div>
+
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="weatherContainer">
+        <img class="moringNight">
+        <div id="weather">
+            <span></span><br />
+            <span></span>
+        </div>
+    </div>
+
+    <img src="img/logout.png" id="logout" class="hidden" alt="logout">    
+
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/background.js"></script>
+</body>
+</html>
